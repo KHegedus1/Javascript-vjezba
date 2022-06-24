@@ -17,5 +17,8 @@ prva = 3;
 
 var druga;
 
-druga = prva;
+druga = prva; //mora ici druga pa prva
+
+var myFirstName = "Qrsars";
+var myLastName = "Asfsfs";
 
