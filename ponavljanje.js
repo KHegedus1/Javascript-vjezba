@@ -33,5 +33,7 @@ a = a + 1;
 b = b + 5;
 c = c + " String!"; // varijable imaju pocetnu vrijednost undefined
 
+let nepromjenjiva = "s"; // za razliku od var,let se ne moze overwriteati
+
 
 
