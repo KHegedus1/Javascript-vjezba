@@ -39,6 +39,4 @@ const READONLY = 2; //read only-pisemo velikim slovima
 
 const sum = 10 + 5 + 5;
 
-
-
-
+const difference = 45 - 33;
