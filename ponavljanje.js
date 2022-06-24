@@ -37,5 +37,8 @@ let nepromjenjiva = "s"; // za razliku od var,let se ne moze overwriteati
 
 const READONLY = 2; //read only-pisemo velikim slovima
 
+const sum = 10 + 5 + 5;
+
+
 
 
