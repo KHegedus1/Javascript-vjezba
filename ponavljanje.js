@@ -65,3 +65,6 @@ console.log(myVar);
 myVar -= 5;        // -||-
 myVar *= 5;        // -||-
 myVar /= 5;        // -||-
+
+const primjer = "Alan said, \"Peter is learning JavaScript\"."; // \ koristimo kako javascript ne bi prepoznao navodnike kao kraj navoda 
+
