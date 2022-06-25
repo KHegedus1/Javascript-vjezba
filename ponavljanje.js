@@ -44,3 +44,7 @@ const difference = 45 - 33;
 const product = 8 * 10;
 
 const quotient = 66 / 33;
+
+i++ ; // isto kao   i= i+1
+
+i-- ; // isto kao   i= i-1
