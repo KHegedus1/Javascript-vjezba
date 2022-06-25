@@ -92,3 +92,4 @@ const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  // a
 \t	tab
 \b	word boundary
 \f	form feed
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine"; 
