@@ -48,3 +48,9 @@ const quotient = 66 / 33;
 i++ ; // isto kao   i= i+1
 
 i-- ; // isto kao   i= i-1
+
+var myDecimal = 5.7;
+
+const product = 2.0 * 2.5;
+
+const quotient = 4.4 / 2.0;
