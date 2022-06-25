@@ -68,3 +68,16 @@ myVar /= 5;        // -||-
 
 const primjer = "Alan said, \"Peter is learning JavaScript\"."; // \ koristimo kako javascript ne bi prepoznao navodnike kao kraj navoda 
 
+const myStr = " I am a \"double quoted\" string inside \"double quotes\".";
+
+const doubleQuoteStr = "This is a string"; 
+
+const singleQuoteStr = 'This is also a string';
+
+const conversation = 'Finn exclaims to Jake, "Algebraic!"';
+
+const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"'; 
+
+const badStr = 'Finn responds, "Let's go!"';
+
+const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  // ako imamo kombinaciju ' i ",ne trebamo \
