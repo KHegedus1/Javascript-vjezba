@@ -63,3 +63,5 @@ let myVar = 1;
 myVar += 5;        // istovremeno izvodi matematicku operaciju i jednakost
 console.log(myVar);
 myVar -= 5;        // -||-
+myVar *= 5;        // -||-
+myVar /= 5;        // -||-
