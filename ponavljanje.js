@@ -81,3 +81,14 @@ const goodStr = 'Jake asks Finn, "Hey, let\'s go on an adventure?"';
 const badStr = 'Finn responds, "Let's go!"';
 
 const myStr = '<a href="http://www.example.com" target="_blank">Link</a>';  // ako imamo kombinaciju ' i ",ne trebamo \
+ 
+//Escape znakovi unutar stringa
+
+\'	single quote
+\"	double quote
+\\	backslash
+\n	newline
+\r	carriage return
+\t	tab
+\b	word boundary
+\f	form feed
