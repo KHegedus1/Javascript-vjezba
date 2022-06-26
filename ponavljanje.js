@@ -125,3 +125,8 @@ myStr = "Hello World"; //moramo promjeniti cijeli string,ne mozemo promjeniti sa
 const lastName = "Hsgdsg";
 
 const thirdLetterOfLastName = lastName[2];
+
+const lastName = "Hsgdsg";
+
+const lastLetterOfLastName = lastName[lastName.length - 1]; 
+
