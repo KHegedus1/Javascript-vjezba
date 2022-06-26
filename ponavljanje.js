@@ -111,3 +111,9 @@ let lastNameLength = 0;
 const lastName = "Hsgdsg";
 
 lastNameLength = lastName.length;
+
+
+let firstLetterOfLastName = "";
+const lastName = "Hsgdsg";
+
+firstLetterOfLastName = lastName[0]; 
