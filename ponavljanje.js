@@ -130,3 +130,6 @@ const lastName = "Hsgdsg";
 
 const lastLetterOfLastName = lastName[lastName.length - 1]; 
 
+const lastName = "Hsgdsg";
+
+const secondToLastLetterOfLastName = lastName[lastName.length -2]; 
