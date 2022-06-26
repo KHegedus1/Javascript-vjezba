@@ -121,3 +121,7 @@ firstLetterOfLastName = lastName[0];
 let myStr = "Jello World";
 
 myStr = "Hello World"; //moramo promjeniti cijeli string,ne mozemo promjeniti samo jedno slovo
+
+const lastName = "Hsgdsg";
+
+const thirdLetterOfLastName = lastName[2];
