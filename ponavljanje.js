@@ -142,3 +142,5 @@ const myAdverb = "quickly";
 const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + myAdverb + ".";
 
 const myArray = ["rijec" , "druga rijec" ,4];
+
+const myArray = [["prvi array" ,1],["drugi array",2]];
