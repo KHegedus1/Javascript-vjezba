@@ -223,3 +223,12 @@ function functionWithArgs (arg1,arg2){
   myLocalScope();
   
   console.log('outside myLocalScope', myVar);
+
+  const outerWear = "T-Shirt";
+
+function myOutfit() {
+  var outerWear ="sweater";
+  return outerWear;
+}
+
+myOutfit();
