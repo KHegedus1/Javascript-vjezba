@@ -169,3 +169,9 @@ const removedFromMyArray = myArray.pop(); // pop-brisanje zadnje stavke iz varij
 
 const myArray = [["John", 23], ["dog", 3]];
 var removedFromMyArray = myArray.shift(); // shift-brisanje prve stavke iz varijable
+
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+myArray.unshift(["Paul", 35]);           // unshift-dodavanje na pocetak varijable
+
