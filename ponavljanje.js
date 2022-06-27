@@ -143,4 +143,7 @@ const wordBlanks = "The " + myAdjective + " " + myNoun + " " + myVerb + " " + my
 
 const myArray = ["rijec" , "druga rijec" ,4];
 
-const myArray = [["prvi array" ,1],["drugi array",2]];
+const myArray = [["prvi array" ,1],["drugi array",2]]; //nesting
+
+const myArray = [50, 60, 70];
+var myData  = myArray[0];
