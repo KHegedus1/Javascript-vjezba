@@ -251,3 +251,16 @@ function processArg(num) {
 }
 
 processed = processArg(7);
+
+function nextInLine(arr, item) {
+    arr.push(item);
+    var arr2 = arr.shift();
+    return arr2;
+  
+  }
+  
+  const testArr = [1, 2, 3, 4, 5];
+  
+  console.log("Before: " + JSON.stringify(testArr));
+  console.log(nextInLine(testArr, 6));
+  console.log("After: " + JSON.stringify(testArr));
