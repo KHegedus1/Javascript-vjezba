@@ -165,5 +165,7 @@ const myArray = [["John", 23], ["cat", 2]];
 myArray.push(["dog",3]); //dodavanje na kraj varijable 
 
 const myArray = [["John", 23], ["cat", 2]];
-
 const removedFromMyArray = myArray.pop(); // pop-brisanje zadnje stavke iz varijable
+
+const myArray = [["John", 23], ["dog", 3]];
+var removedFromMyArray = myArray.shift(); // shift-brisanje prve stavke iz varijable
