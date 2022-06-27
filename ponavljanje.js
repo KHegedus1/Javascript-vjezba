@@ -147,3 +147,7 @@ const myArray = [["prvi array" ,1],["drugi array",2]]; //nesting
 
 const myArray = [50, 60, 70];
 var myData  = myArray[0];
+
+const myArray = [18, 64, 99];
+
+myArray[0] = 45;
