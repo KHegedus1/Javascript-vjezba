@@ -192,4 +192,9 @@ reusableFunction();
 function functionWithArgs (arg1,arg2){
     console.log(arg1 + arg2);
   }
-  functionWithArgs (1,2);     
+  functionWithArgs (1,2);
+  
+  function timesFive(arg){
+    return arg * 5;
+  }
+  var rijesenje = timesFive(2);
