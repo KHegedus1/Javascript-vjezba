@@ -182,3 +182,10 @@ const myList = [
     ["Brasno"   ,4],
     ["Maslac"   ,5]
     ];
+
+function reusableFunction(){
+        console.log("Hi World");
+      }
+
+reusableFunction();    
+
