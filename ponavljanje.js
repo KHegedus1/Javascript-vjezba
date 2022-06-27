@@ -175,3 +175,10 @@ myArray.shift();
 
 myArray.unshift(["Paul", 35]);           // unshift-dodavanje na pocetak varijable
 
+const myList = [
+    ["Cokolada" ,1],
+    ["Mlijeko"  ,2],
+    ["Ulje"     ,3],
+    ["Brasno"   ,4],
+    ["Maslac"   ,5]
+    ];
