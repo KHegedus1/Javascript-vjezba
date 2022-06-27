@@ -213,5 +213,13 @@ function functionWithArgs (arg1,arg2){
     if (typeof oopsGlobal != "undefined") {
       output += " oopsGlobal: " + oopsGlobal;
     }
-    console.log(output);
+    console.log(output); // varijabla je lokalna ako je unutar funckije,a globalna ako je izvan
   }
+
+  function myLocalScope() {
+    var myVar ="sfagas";
+    console.log('inside myLocalScope', myVar);
+  }
+  myLocalScope();
+  
+  console.log('outside myLocalScope', myVar);
