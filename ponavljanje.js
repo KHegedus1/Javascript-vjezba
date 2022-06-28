@@ -383,7 +383,7 @@ testLessOrEqual(10);
 
 function testLogicalAnd(val) {
 
-  if (val <= 50 && val >= 25 ){
+  if (val <= 50 && val >= 25 ){  // &&-samo true
    
       return "Yes";
     }
@@ -394,7 +394,7 @@ testLogicalAnd(10);
 
 function testLogicalOr(val) {
 
-  if (val >20 || val <10) {
+  if (val >20 || val <10) {      // ||-samo false
     return "Outside";
   }
 
