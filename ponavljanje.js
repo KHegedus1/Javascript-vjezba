@@ -610,3 +610,10 @@ function cc(card) {
   
 }
 cc(2); cc(3); cc(7); cc('K'); cc('A');
+  
+const myDog = {
+  name: "sgasga",
+  legs: 4,
+  tails:1,
+  friends:[2]  // ne ide nista na kraj
+};
