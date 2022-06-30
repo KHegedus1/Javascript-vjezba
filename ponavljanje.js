@@ -617,3 +617,12 @@ const myDog = {
   tails:1,
   friends:[2]  // ne ide nista na kraj
 };
+
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+const hatValue = testObj.hat;      
+const shirtValue = testObj.shirt;    
