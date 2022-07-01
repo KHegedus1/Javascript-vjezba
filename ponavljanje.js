@@ -793,3 +793,9 @@ while(i >= 0) {
   myArray.push(i);
   i--;
 }
+
+const myArray = [];
+
+for(var i=1;i<6;i++){
+myArray.push(i);
+}
