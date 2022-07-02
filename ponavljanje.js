@@ -822,10 +822,18 @@ for (var i = 0; i < myArr.length; i++) {
 function multiplyAll(arr) {
   let product = 1;
   for (var i=0; i < arr.length; i++) {
-for (var a=0; a < arr[i].length; a++) {
+for (var a=0; j < arr[i].length; a++) {
   product *= arr[i][a];
 }}
   return product;
 }
 
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+const myArray = [];
+let i = 10;
+
+do {
+  myArray.push(i);
+  i++;
+}while (i<11);
