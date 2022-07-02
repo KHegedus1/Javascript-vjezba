@@ -818,3 +818,14 @@ var total = 0;
 for (var i = 0; i < myArr.length; i++) {
   total += myArr[i];
 }
+
+function multiplyAll(arr) {
+  let product = 1;
+  for (var i=0; i < arr.length; i++) {
+for (var a=0; a < arr[i].length; a++) {
+  product *= arr[i][a];
+}}
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
