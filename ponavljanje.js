@@ -894,6 +894,6 @@ lookUpProfile("Akira", "likes");
 function randomFraction() {
 
 
-  return Math.random();
+  return Math.random(); 
 
 }
