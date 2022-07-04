@@ -934,3 +934,14 @@ function randomWholeNum() {
    }
    
    checkSign(10);
+
+   function countdown(n){
+    if (n < 1){
+      return [];
+    }else{
+      let countNiz = countdown(n - 1);
+      countNiz.unshift(n)
+      return countNiz;
+    }
+  }
+  
