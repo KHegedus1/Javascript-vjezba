@@ -846,3 +846,47 @@ function sum(arr, n) {
   }
 }
 
+  // Setup
+const contacts = [
+  {
+    firstName: "Akira",
+    lastName: "Laine",
+    number: "0543236543",
+    likes: ["Pizza", "Coding", "Brownie Points"],
+  },
+  {
+    firstName: "Harry",
+    lastName: "Potter",
+    number: "0994372684",
+    likes: ["Hogwarts", "Magic", "Hagrid"],
+  },
+  {
+    firstName: "Sherlock",
+    lastName: "Holmes",
+    number: "0487345643",
+    likes: ["Intriguing Cases", "Violin"],
+  },
+  {
+    firstName: "Kristian",
+    lastName: "Vos",
+    number: "unknown",
+    likes: ["JavaScript", "Gaming", "Foxes"],
+  },
+];
+
+function lookUpProfile(firstName, prop){
+  for (var c =0; c<contacts.length; c++){
+    if (contacts[c]["firstName"] === firstName){
+      if (contacts[c].hasOwnProperty(prop)){
+        return contacts[c][prop];
+      } else {
+      return "No such property";
+      }
+    }
+    
+  }
+return "No such contact";
+}
+
+
+lookUpProfile("Akira", "likes");
