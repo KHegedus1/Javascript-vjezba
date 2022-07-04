@@ -890,3 +890,10 @@ return "No such contact";
 
 
 lookUpProfile("Akira", "likes");
+
+function randomFraction() {
+
+
+  return Math.random();
+
+}
