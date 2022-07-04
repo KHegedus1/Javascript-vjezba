@@ -898,3 +898,10 @@ function randomFraction() {
 
 }
 
+function randomWholeNum() {
+
+  Math.floor(Math.random() * 10);
+  
+    return Math.floor(Math.random() * 10);
+  }
+  
