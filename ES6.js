@@ -62,3 +62,4 @@ const HIGH_TEMPERATURES = {
 
 const {today,tomorrow} = HIGH_TEMPERATURES;
 
+ 
