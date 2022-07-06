@@ -79,3 +79,5 @@ const LOCAL_FORECAST = {
 
 const { today: { low: lowToday, high: highToday } } = LOCAL_FORECAST;
 
+let a = 8, b = 6;
+[a, b] = [b, a];
