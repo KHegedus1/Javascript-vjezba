@@ -87,4 +87,4 @@ function removeFirstTwo(list) {
   const [a,b, ...arr] = list;   
   return arr;
 }
-const arr = removeFirstTwo(source);
+const arr = removeFirstTwo(source); 
