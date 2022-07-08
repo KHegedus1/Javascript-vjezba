@@ -131,3 +131,12 @@ const bicycle = {
 };
 bicycle.setGear(3);
 console.log(bicycle.gear);
+
+class Vegetable {
+  constructor(name){
+    this.name = name;
+  }
+}
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); 
