@@ -160,4 +160,8 @@ class Thermostat {
   thermos.temperature = 26;
   temp = thermos.temperature; 
 
-   
+<html>
+  <body>
+   <script type="module" src="index.js"></script>
+  </body>
+</html>
