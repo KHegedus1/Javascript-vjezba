@@ -159,3 +159,5 @@ class Thermostat {
   let temp = thermos.temperature; 
   thermos.temperature = 26;
   temp = thermos.temperature; 
+
+   
