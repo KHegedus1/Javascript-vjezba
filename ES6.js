@@ -186,8 +186,12 @@ import * as stringFunctions from "./string_functions.js";
 stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
 
-export default function subtract(x, y) {   //you cannot use export default with var, let, or const
+export default function subtract(x, y) {   //you cannot use export defaultexport default with var, let, or const
 
   return x - y;
 }
+
+import subtract from "./math_functions.js";
+
+subtract(7,4);
 
