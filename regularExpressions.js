@@ -29,3 +29,7 @@ let result = unRegex.test(exampleStr);
 let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
 let vowelRegex = /[aeiou]/gi; 
 let result = quoteSample.match(vowelRegex); 
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/gi;
+let result = quoteSample.match(alphabetRegex);
