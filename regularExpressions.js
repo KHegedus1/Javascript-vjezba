@@ -36,4 +36,8 @@ let result = quoteSample.match(alphabetRegex);
 
 let quoteSample = "Blueberry 3.141592653s are delicious.";
 let myRegex = /[h-s2-6]/gi;
+let result = quoteSample.match(myRegex);
+
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi; 
 let result = quoteSample.match(myRegex); 
