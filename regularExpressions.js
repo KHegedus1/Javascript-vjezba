@@ -46,3 +46,6 @@ let difficultSpelling = "Mississippi";
 let myRegex = /s+/gi; 
 let result = difficultSpelling.match(myRegex);
 
+let chewieRegex = /Aa*/;
+let result = chewieQuote.match(chewieRegex);
+
