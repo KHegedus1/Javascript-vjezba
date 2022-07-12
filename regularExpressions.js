@@ -102,3 +102,7 @@ let result = haRegex.test(haStr);
 let timStr = "Timmmmber";
 let timRegex = /Tim{4}ber/;
 let result = timRegex.test(timStr);
+
+let favWord = "favorite";
+let favRegex = /favou?rite/; 
+let result = favRegex.test(favWord);
