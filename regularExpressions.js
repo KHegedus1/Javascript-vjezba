@@ -78,3 +78,7 @@ let result = movieName.match(numRegex).length;
 let movieName = "2001: A Space Odyssey";
 let noNumRegex = /\D/gi; 
 let result = movieName.match(noNumRegex).length;
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z]([0-9]{2,}|[a-z]+\d*)$/i 
+let result = userCheck.test(username);
