@@ -66,3 +66,7 @@ let result = lastRegex.test(caboose);
 let quoteSample = "The five boxing wizards jump quickly.";
 let alphabetRegexV2 = /\w/gi;
 let result = quoteSample.match(alphabetRegexV2).length;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/gi;
+let result = quoteSample.match(nonAlphabetRegex).length;
