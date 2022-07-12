@@ -110,3 +110,7 @@ let result = favRegex.test(favWord);
 let sampleWord = "astronaut";
 let pwRegex = /(?=\w{6})(?=\w*\d{2})/;
 let result = pwRegex.test(sampleWord);
+
+let myString = "Eleanor Roosevelt";
+let myRegex = /(Franklin|Eleanor).*Roosevelt/
+let result = myRegex.test(myString);
