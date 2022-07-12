@@ -94,3 +94,7 @@ let result = sample.match(countNonWhiteSpace);
 let ohStr = "Ohhh no";
 let ohRegex = /Oh{3,6} no/;
 let result = ohRegex.test(ohStr);
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; 
+let result = haRegex.test(haStr);
