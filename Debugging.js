@@ -12,3 +12,11 @@ console.log(output);
 console.clear();
 
 
+//Note that in JavaScript, arrays are technically a type of object.
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+console.log(typeof seven);
+console.log(typeof three);
+
+
