@@ -30,3 +30,12 @@ arr.splice(1,4); //drugi parametar odlucuje do koliko ide splice,ukljucuje i poc
 console.log(arr);
 
 
+function htmlColorNames(arr) {
+    arr.splice(0,2,'DarkSalmon','BlanchedAlmond');
+     return arr;
+   }
+   
+   console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+
+   
