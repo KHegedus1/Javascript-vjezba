@@ -25,4 +25,8 @@ function mixedNumbers(arr) {
   console.log(popShift(['challenge', 'is', 'not', 'complete']));
 
 
-  
+const arr = [2, 4, 5, 1, 7, 5, 2, 1];
+arr.splice(1,4); //drugi parametar odlucuje do koliko ide splice,ukljucuje i pocetni parametar
+console.log(arr);
+
+
