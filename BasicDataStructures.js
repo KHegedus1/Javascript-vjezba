@@ -31,11 +31,10 @@ console.log(arr);
 
 
 function htmlColorNames(arr) {
-    arr.splice(0,2,'DarkSalmon','BlanchedAlmond');
+    arr.splice(0,2,'DarkSalmon','BlanchedAlmond'); //treci + parametar= dodavanje
      return arr;
    }
    
-   console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+   console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick'])); 
 
 
-   
