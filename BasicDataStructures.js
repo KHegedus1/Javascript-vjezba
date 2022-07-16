@@ -64,4 +64,6 @@ function htmlColorNames(arr) {
     return sentence;
   }
   
-  console.log(spreadOut());
+
+  
+  
