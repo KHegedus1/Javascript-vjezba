@@ -26,4 +26,11 @@ function reverseString(str) {
        factorialize(5);
 
 
-       
+       function findLongestWordLength(str) {
+        return str.split(' ')
+          .reduce(function(longest, w) {
+            return Math.max(longest, w.length)
+          }, 0);
+      }
+      
+      findLongestWordLength("The quick brown fox jumped over the lazy dog");
