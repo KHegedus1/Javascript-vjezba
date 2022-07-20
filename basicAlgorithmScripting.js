@@ -67,7 +67,18 @@ function reverseString(str) {
         }
       }
 
+
       
       function findElement(arr, func) {
         return arr[arr.map(func).indexOf(true)];
       }
+
+
+
+      function booWho(bool) {
+        return typeof bool == "boolean";
+      }
+      
+      booWho(null);
+
+
