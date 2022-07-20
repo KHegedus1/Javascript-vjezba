@@ -68,4 +68,6 @@ function reverseString(str) {
       }
 
       
-      
+      function findElement(arr, func) {
+        return arr[arr.map(func).indexOf(true)];
+      }
