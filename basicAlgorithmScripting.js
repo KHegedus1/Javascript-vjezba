@@ -82,3 +82,11 @@ function reverseString(str) {
       booWho(null);
 
 
+      function titleCase(str) {
+        return str
+          .toLowerCase()
+          .replace(/(^|\s)\S/g, title => title.toUpperCase());
+      }
+
+
+      
