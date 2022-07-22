@@ -34,4 +34,11 @@
       dog.sayLegs();
 
 
+      function Dog(){
+        this.name ="pas";
+        this.color="black";
+        this.numLegs=4;
+      }
+
+
       
