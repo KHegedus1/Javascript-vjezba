@@ -80,4 +80,11 @@ const Window = function(tabs) {
   }
 
 
-  
+  let fixedValue = 4;
+
+function incrementer(n) {
+  return n + 1;
+}
+
+
+
