@@ -73,4 +73,4 @@ const Window = function(tabs) {
   console.log(finalTabs.tabs);
 
 
-  
+   
