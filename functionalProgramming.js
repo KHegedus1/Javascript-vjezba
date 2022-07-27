@@ -622,3 +622,12 @@ urlSlug("A Mind Needs Books Like A Sword Needs A Whetstone");
 
 
 
+function checkPositive(arr) {
+  return arr.every(val => val > 0);
+
+}
+
+checkPositive([1, 2, 3, -4, 5]);
+
+
+
