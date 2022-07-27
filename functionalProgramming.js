@@ -635,3 +635,14 @@ function checkPositive(arr) {
   return arr.some(elem => elem > 0);
 }
 checkPositive([1, 2, 3, -4, 5])
+
+
+
+function add(x) {
+  return function(y) {
+    return function(z) {
+      return x + y + z;
+    };
+  };
+}
+add(10)(20)(30);
