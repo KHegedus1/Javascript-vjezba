@@ -377,7 +377,6 @@ console.log(filteredList);
 
 
 
-  // The global variable
 const s = [23, 65, 98, 5];
 
 Array.prototype.myFilter = function(callback) {
@@ -400,6 +399,16 @@ function sliceArray(anim, beginSlice, endSlice) {
 
 const inputAnim = ["Cat", "Dog", "Tiger", "Zebra", "Ant"];
 sliceArray(inputAnim, 1, 3);
+
+
+
+function nonMutatingSplice(cities) {
+  return cities.slice(0,3);
+
+}
+
+const inputCities = ["Chicago", "Delhi", "Islamabad", "London", "Berlin"];
+nonMutatingSplice(inputCities);
 
 
 
