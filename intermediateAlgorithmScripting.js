@@ -27,4 +27,20 @@ function sumAll(arr) {
 
   
 
+  function whatIsInAName(collection, source) {
+    const souceKeys = Object.keys(source);
+  
+    return collection.filter(obj => {
+      for (let i = 0; i < souceKeys.length; i++) {
+        if (!obj.hasOwnProperty(souceKeys[i]) ||
+            obj[souceKeys[i]] !== source[souceKeys[i]]) {
+          return false;
+        }
+      }
+      return true;
+    });
+  }
+
+  
+
   
