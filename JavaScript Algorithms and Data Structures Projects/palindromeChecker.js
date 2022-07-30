@@ -28,7 +28,7 @@ Waiting:palindrome("five|\_/|four") should return false.
 
 
 function palindrome(str) {
-    var noviString = str.replace(/\W/g,""); //brisanje praznih mjesta
+    var noviString = str.replace(/\W+/g,""); //brisanje praznih mjesta
     console.log(noviString);
 
     return true;
