@@ -30,9 +30,11 @@ Waiting:palindrome("five|\_/|four") should return false.
 function palindrome(str) {
     var noviString = str.replace(/\W+/g,""); //brisanje praznih mjesta
     var obrnutiString = noviString.split("").reverse().join("");//reverse
-    console.log(noviString);
-
-    return true;
-  }
-  
-  palindrome("aa z");
+    if (obrnutiString != noviString){
+        return true;
+      }
+      return false;
+    }
+    
+    var result = palindrome("not a palindrome")
+    console.log(result);
