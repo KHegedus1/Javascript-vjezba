@@ -31,9 +31,9 @@ function palindrome(str) {
     var noviString = str.replace(/\W+/g,""); //brisanje praznih mjesta
     var obrnutiString = noviString.split("").reverse().join("");//reverse
     if (obrnutiString != noviString){
-        return true;
+        return false;
       }
-      return false;
+      return true;
     }
     
     var result = palindrome("not a palindrome")
