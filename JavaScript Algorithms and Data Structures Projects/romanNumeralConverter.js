@@ -44,11 +44,32 @@ convertToRoman(1006) should return the string MVI
 convertToRoman(1023) should return the string MXXIII
 convertToRoman(2014) should return the string MMXIV
 convertToRoman(3999) should return the string MMMCMXCIX
-/*
+*/
+
 
 
 function convertToRoman(num) {
- return num;
-}
+    var rimski = {
+      M: 1000,
+      CM: 900,
+      D: 500,
+      CD: 400,
+      C: 100,
+      XC: 90,
+      L: 50,
+      XL: 40,
+      X: 10,
+      IX: 9,
+      V: 5,
+      IV: 4,
+      I: 1
+    };
+    var str = '';
 
-convertToRoman(36);
+      for (var i of Object.keys(rimski)) {
+      var q = Math.floor(num / rimski[i]);
+      num -= q * rimski[i];
+      str += i.repeat(q);
+    }
+    return str;
+  } 
