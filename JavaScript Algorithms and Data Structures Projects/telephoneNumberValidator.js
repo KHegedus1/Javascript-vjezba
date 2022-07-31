@@ -48,3 +48,11 @@ telephoneCheck("55 55-55-555-5") should return false.
 telephoneCheck("11 555-555-5555") should return false.
 
 */ 
+
+
+
+function telephoneCheck(str) {
+    return true;
+  }
+  
+  telephoneCheck("555-555-5555");
