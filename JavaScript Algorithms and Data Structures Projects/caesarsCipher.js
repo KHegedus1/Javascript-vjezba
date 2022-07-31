@@ -21,7 +21,7 @@ Waiting:rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.") should decode to t
 function rot13(str) {
     let charCode = 0;
     let niz = [];
-    niz = str.split(""); 
+    niz = str.split(""); // string se pretvara u array
     for (let i = 0; i < niz.length; i++) {
       charCode = niz[i].charCodeAt();
         if (charCode > 64 && charCode < 91) {
@@ -35,7 +35,7 @@ function rot13(str) {
         niz.splice(i,1,String.fromCharCode(charCode));
       }
     }
-    return niz.join('');
+    return niz.join(''); // array se pridruzuje vrijednosti
   }
   
   rot13("SERR PBQR PNZC");
