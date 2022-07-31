@@ -19,7 +19,24 @@ Waiting:rot13("GUR DHVPX OEBJA SBK WHZCF BIRE GUR YNML QBT.") should decode to t
 */
 
 function rot13(str) {
-    return str;
+    let charCode = 0;
+    let niz = [];
+    niz = str.split(""); 
+    for (let i = 0; i < niz.length; i++) {
+      charCode = niz[i].charCodeAt();
+        if (charCode > 64 && charCode < 91) {
+        if (charCode > 77) {
+          charCode = charCode - 13;
+        }
+        else {
+          charCode = charCode + 13;
+        }
+  
+        niz.splice(i,1,String.fromCharCode(charCode));
+      }
+    }
+    return niz.join('');
   }
   
   rot13("SERR PBQR PNZC");
+  
