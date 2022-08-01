@@ -91,7 +91,7 @@ let checkCashRegister = (price, cash, cid) => {
         }
       }
       if (changeToGive > 0) {
-        return { status: "INSUFFICIENT_FUNDS", change: [] };
+        return {status: "INSUFFICIENT_FUNDS", change: [] };
       }
-      return { status: "OPEN", change: changeArray};
+      return {status: "OPEN", change: changeArray};
     }
