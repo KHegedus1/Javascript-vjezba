@@ -27,6 +27,7 @@ Waiting:palindrome("five|\_/|four") should return false.
 */
 
 
+
 function palindrome(str) {
     var noviString = str.replace(/\W+|_/g,"").toLowerCase; //brisanje praznih mjesta,ignoriranje _,pretvaranje sve u mala slova
     var obrnutiString = noviString.split("").reverse().join("");//reverse
